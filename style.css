@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Press Start 2P', cursive;
-    font-family: 'Roboto Mono', monospace;
 }
+
 html {
     height: 100%;
 }
@@ -21,12 +21,13 @@ body {
     background-repeat: no-repeat;
     height: 700px;
     width: 400px;
-    border-radius: 20px 20px 100px 20px;
     padding-top: 108px;
     padding-left: 96px;
     padding-right: 96px;
-    box-shadow:-4px 5px 20px 6px #AFA5A6;
+    box-shadow: -4px 5px 20px 6px #AFA5A6;
+    border-radius: 20px 20px 100px 20px;
 }
+
 .score {
     font-size: 1em;
     font-weight: 500;
