@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto Mono', monospace;
+}
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    background-image: url("gameboy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 400px;
+    border-radius: 20px 20px 100px 20px;
+    padding-top: 108px;
+    padding-left: 96px;
+    padding-right: 96px;
+    box-shadow:-4px 5px 20px 6px #AFA5A6;
+}
+.score {
+    font-size: 1em;
+    font-weight: 500;
+    position: relative;
+    color: #4f4303;
+    text-align: center;
+}
+canvas {
+    border: 2px solid #4f4303;
+    margin-left: 5px;
+}
